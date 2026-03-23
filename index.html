@@ -126,8 +126,8 @@
 
   /* ABOUT */
   .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; max-width: 1100px; margin: 0 auto; }
-  .about-content p { font-size: 0.95rem; line-height: 1.8; color: var(--text-mid); margin-bottom: 28px; }
-  .about-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .about-content p { font-size: 0.95rem; line-height: 1.8; color: var(--text-mid); margin-bottom: 9px; }
+  .about-list { list-style: none; display: flex; flex-direction: column; gap: 4px; }
   .about-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; color: var(--text-mid); line-height: 1.6; }
   .about-list li::before { content: '◆'; font-size: 0.5rem; color: var(--green-accent); margin-top: 6px; flex-shrink: 0; }
 
@@ -275,6 +275,13 @@
     .form-row { grid-template-columns: 1fr; }
     footer { flex-direction: column; gap: 14px; text-align: center; }
   }
+  .img-data{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+  }
 </style>
 </head>
 <body>
@@ -338,7 +345,10 @@
         <li>Adaptive strategies tailored to the distinct requirements of each client</li>
       </ul>
     </div>
-    <div class="corp-profile">
+    <div>
+      <img src="./stylish-business-team-three.jpg" class="img-data"></img>
+    </div>
+    <!-- <div class="corp-profile">
       <h3>Corporate Profile</h3>
       <div class="corp-grid">
         <div class="corp-field" style="grid-column:span 2">
@@ -365,7 +375,7 @@
           <label>Status</label>
           <div class="badge-active">Active</div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
